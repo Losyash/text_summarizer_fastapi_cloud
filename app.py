@@ -16,13 +16,13 @@ async def index(q: str = Query(None)):
         q = default_text
 
     return {
-        "text": q,
-        "annotation": summarize(q)
+        "annotation": summarize(q),
+        "text": q
     }
 
 @app.post("/summarize")
 async def annotate(item: Item):
     return {
-        "text": item.text,
-        "annotation": summarize(item.text)
+        "annotation": summarize(item.text),
+        "text": item.text
     }
