@@ -6,7 +6,7 @@ default_text = "Актуальность проблемы. Электронна�
 client = TestClient(app)
 
 
-def test_summarize_response_method():
+def test_index_response_method():
     response = client.post("/")
 
     assert response.status_code == 405
