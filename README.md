@@ -4,6 +4,7 @@
 - [FastAPI](https://www.google.com)
 - [Huggingface](https://huggingface.co/)
 - [Pytorch](https://pytorch.org/)
+- [Pytest](https://docs.pytest.org/en/7.2.x/contents.html)
 
 #### 2. Развернутое приложение в Яндекс.Облако
 [Развернутое приложение с текстом по умолчанию](http://158.160.22.185:8000)
